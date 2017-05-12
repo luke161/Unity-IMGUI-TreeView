@@ -3,6 +3,8 @@ Simple Tree View implementation for IMGUI (Editor GUI) in Unity. Includes a spec
 
 Built and tested in **Unity 5.6.0**
 
+![Screenshot](/Images/Screenshot.png)
+
 ## Usage
 The Tree View is made up of two parts, a tree data structure [TreeNode](./Assets/TreeView/Scripts/TreeNode.cs) and an IMGUI control [TreeIMGUI](./Assets/TreeView/Editor/TreeIMGUI.cs). The project comes with a basic tree data structure which can be easily extended or wrapped in a container class (demonstrated with [AssetTree](./Assets/TreeView/Editor/AssetTree.cs)).
 
